@@ -1,0 +1,42 @@
+.white{
+color: #fff;
+}
+
+.black{
+    color: #000;
+}
+.text-bold {
+    font-weight: bold;
+    // font-size: 24px;
+}
+.text-large{
+    font-size: 2.4rem;
+}
+.text-medium{
+    font-size: 1.6rem;
+}
+.text-small {
+    font-size: 1.2rem;
+}
+.text-padding { 
+    padding: 1rem;
+    background-color: #343536;
+    &:hover {
+        background-color: #454647 ;
+    }
+}
+.result-row {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.result-column{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     h1{
+         margin: 0.8rem;
+
+     }
+}

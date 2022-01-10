@@ -1,0 +1,83 @@
+
+.hide{
+    // pointer-events: none;
+    transition: all;
+    animation-name: hide;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    // opacity: 0;
+    // margin-left: 1px;
+
+}
+.show{
+    transition: all;
+    animation-name: show;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+.show-vertically{
+    transition: all;
+    animation-name: show-vertically;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.hide-vertically{
+    // pointer-events: none;
+    transition: all;
+    animation-name: hide-vertically;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    // opacity: 0;
+    // margin-left: 1px;
+
+}
+
+@keyframes show-vertically {
+    0%{
+        // width: 0px;
+
+        // bottom: -100%;
+        bottom: -150%;
+
+    }100%{
+        // width: 352px;
+          bottom: 0%;
+    }
+}
+@keyframes hide-vertically {
+    0%{
+        // width: 0px;
+
+        bottom: 0%;
+    }100%{
+        // width: 352px;
+          bottom: -150%;
+    }
+}
+
+@keyframes hide {
+    0%{
+        // width: 352px;
+    }100%{
+        width: 0px;
+        // width: 0%;
+        transform: translateX(-100%);
+    }
+
+}
+@keyframes show {
+    0%{
+        width: 0px;
+        // width: 0%;
+    }100%{
+        width: 352px;
+        // width: 100%;
+        // transform: translateX(50%);
+        
+    }
+}

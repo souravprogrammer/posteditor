@@ -1,0 +1,51 @@
+{
+    "sticker" : [
+        {
+            "search" : "house home building",
+            "src" : "./images/png_image/1.png"
+        },        {
+            "search" : "wine bottle champagne",
+            "src" : "./images/png_image/2.png"
+        },        {
+            "search" : "brantch tree",
+            "src" : "./images/png_image/3.png"
+        },        {
+            "search" : "boder freame photo image",
+            "src" : "./images/png_image/4.png"
+        },        {
+            "search" : "lover weds wedding couple kiss",
+            "src" : "./images/png_image/5.png"
+        },        {
+            "search" : "lover weds wedding couple kiss",
+            "src" : "./images/png_image/6.png"
+        },        {
+            "search" : "snowman christmas santa",
+            "src" : "./images/png_image/7.png"
+        },        {
+            "search" : "teacher teacherday",
+            "src" : "./images/png_image/8.png"
+        },        {
+            "search" : "teacher teacherday",
+            "src" : "./images/png_image/9.png"
+        },        {
+            "search" : "teacher teachers day  teacherday",
+            "src" : "./images/png_image/10.png"
+        },        {
+            "search" : "tree christmastree",
+            "src" : "./images/png_image/11.png"
+        },        {
+            "search" : "tree christmastree",
+            "src" : "./images/png_image/12.png"
+        },        {
+            "search" : "tree christmastree",
+            "src" : "./images/png_image/13.png"
+        },        {
+            "search" : "tree christmastree",
+            "src" : "./images/png_image/14.png"
+        },        {
+            "search" : "tree christmastree",
+            "src" : "./images/png_image/15.png"
+        }
+
+    ]
+}

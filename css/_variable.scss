@@ -1,0 +1,40 @@
+$lightGreay : #252627 ;
+$darktGreay : #18191b ;
+$mattywhite : #ebecf0;
+$textwhite : #eaeaea;
+$textmatty : #939394;
+
+*,*::after ,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    // overflow: ;
+    font-family: 'Open Sans','Noto Sans', sans-serif;
+   font-size: 62.5%;
+}
+p{
+   font-size: 1.1rem;
+}
+
+body{
+    overscroll-behavior: contain;
+    // overscroll-behavior-y: contain;
+}
+
+
+.container{
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    background-color: $mattywhite;
+}
+
+@media (max-width : 735px ) {
+
+    :root{
+        font-size: 40%;
+    }
+    
+}
